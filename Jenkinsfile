@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage('Git access'){
             steps{
-                git branch : 'main' ,url :''
+                git branch : 'main' ,url :'https://github.com/subbu7733/3jobs.git'
             }
         }
 
